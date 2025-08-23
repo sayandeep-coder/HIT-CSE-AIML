@@ -1,46 +1,115 @@
-# Getting Started with Create React App
+# HIT CSE Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive website for the Department of Computer Science & Engineering at Haldia Institute of Technology, built with React, TypeScript, and Tailwind CSS.
 
-## Available Scripts
+## 🌟 Features
 
-In the project directory, you can run:
+- **Fully Responsive Design** - Optimized for mobile, tablet, and desktop
+- **Modern UI/UX** - Clean, professional design with smooth animations
+- **TypeScript** - Full type safety throughout the application
+- **Tailwind CSS** - Utility-first CSS framework for rapid development
+- **Component-Based Architecture** - Modular and maintainable code structure
 
-### `npm start`
+## 🚀 Live Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Visit the live website: [https://sayandeep.github.io/hitcse-website](https://sayandeep.github.io/hitcse-website)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🛠️ Tech Stack
 
-### `npm test`
+- **Frontend Framework**: React 19.1.1
+- **Language**: TypeScript 4.9.5
+- **Styling**: Tailwind CSS 4.1.12
+- **Build Tool**: Create React App
+- **Deployment**: GitHub Pages
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📋 Prerequisites
 
-### `npm run build`
+- **Node.js** (version 16 or higher)
+- **npm** (comes with Node.js)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚀 Installation & Setup
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/sayandeep/hitcse-website.git
+   cd hitcse-website
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-### `npm run eject`
+3. **Start the development server**
+   ```bash
+   npm start
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+4. **Open your browser**
+   Navigate to [http://localhost:3000](http://localhost:3000) to view the website.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📁 Project Structure
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```
+hitcse-website/
+├── src/
+│   ├── components/
+│   │   ├── Navbar.tsx          # Navigation component
+│   │   ├── Hero.tsx            # Hero section
+│   │   ├── About.tsx           # About Us section
+│   │   ├── Gallery.tsx         # Gallery section
+│   │   ├── HeadOfDepartment.tsx # HOD section
+│   │   └── Footer.tsx          # Footer component
+│   ├── App.tsx                 # Main app component
+│   ├── index.tsx               # Entry point
+│   └── index.css               # Global styles
+├── tailwind.config.js          # Tailwind configuration
+├── postcss.config.js           # PostCSS configuration
+└── package.json                # Dependencies and scripts
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## 🎨 Available Scripts
 
-## Learn More
+- `npm start` - Runs the app in development mode
+- `npm run build` - Builds the app for production
+- `npm test` - Launches the test runner
+- `npm run deploy` - Deploys to GitHub Pages
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🌐 Deployment
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Manual Deployment
+
+1. **Build the project**
+   ```bash
+   npm run build
+   ```
+
+2. **Deploy to GitHub Pages**
+   ```bash
+   npm run deploy
+   ```
+
+## 📱 Responsive Design
+
+The website is fully responsive and optimized for:
+- **Mobile**: < 768px
+- **Tablet**: 768px - 1024px
+- **Desktop**: > 1024px
+
+## 🎯 Key Sections
+
+1. **Navigation Bar** - Fixed navigation with mobile menu
+2. **Hero Section** - Code snippet and inspirational quote
+3. **About Us** - Department information and statistics
+4. **Gallery** - Image showcase with hover effects
+5. **Head of Department** - Profile and welcome message
+6. **Footer** - Contact information and social links
+
+## 📞 Contact
+
+- **Email**: csehithaldia@hithaldia.ac.in
+- **Address**: Department of Computer Science Engineering, Haldia Institute of Technology, Hatiberia, Haldia, Dist-Purba Medinipore, West Bengal, Pin-721657
+
+---
+
+**Built with ❤️ for the Department of Computer Science & Engineering**
