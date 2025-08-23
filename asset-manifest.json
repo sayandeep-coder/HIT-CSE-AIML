@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/HIT-CSE-AIML/static/css/main.1b275305.css",
-    "main.js": "/HIT-CSE-AIML/static/js/main.2f93075e.js",
+    "main.js": "/HIT-CSE-AIML/static/js/main.8a6f433e.js",
     "static/js/453.250bd238.chunk.js": "/HIT-CSE-AIML/static/js/453.250bd238.chunk.js",
     "index.html": "/HIT-CSE-AIML/index.html",
     "main.1b275305.css.map": "/HIT-CSE-AIML/static/css/main.1b275305.css.map",
-    "main.2f93075e.js.map": "/HIT-CSE-AIML/static/js/main.2f93075e.js.map",
+    "main.8a6f433e.js.map": "/HIT-CSE-AIML/static/js/main.8a6f433e.js.map",
     "453.250bd238.chunk.js.map": "/HIT-CSE-AIML/static/js/453.250bd238.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1b275305.css",
-    "static/js/main.2f93075e.js"
+    "static/js/main.8a6f433e.js"
   ]
 }
