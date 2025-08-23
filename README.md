@@ -1,6 +1,6 @@
-# HIT CSE Website
+# HIT-CSE-AIML
 
-A modern, responsive website for the Department of Computer Science & Engineering at Haldia Institute of Technology, built with React, TypeScript, and Tailwind CSS.
+A modern, responsive website for the Department of Computer Science & Engineering (AI & ML) at Haldia Institute of Technology, built with React, TypeScript, and Tailwind CSS.
 
 ## 🌟 Features
 
@@ -9,10 +9,11 @@ A modern, responsive website for the Department of Computer Science & Engineerin
 - **TypeScript** - Full type safety throughout the application
 - **Tailwind CSS** - Utility-first CSS framework for rapid development
 - **Component-Based Architecture** - Modular and maintainable code structure
+- **Auto-sliding Hero Section** - Dynamic background images with 3-second intervals
 
 ## 🚀 Live Demo
 
-Visit the live website: [https://sayandeep.github.io/hitcse-website](https://sayandeep.github.io/hitcse-website)
+Visit the live website: [https://sayandeep-coder.github.io/HIT-CSE-AIML](https://sayandeep-coder.github.io/HIT-CSE-AIML)
 
 ## 🛠️ Tech Stack
 
@@ -31,8 +32,8 @@ Visit the live website: [https://sayandeep.github.io/hitcse-website](https://say
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/sayandeep/hitcse-website.git
-   cd hitcse-website
+   git clone https://github.com/sayandeep-coder/HIT-CSE-AIML.git
+   cd HIT-CSE-AIML
    ```
 
 2. **Install dependencies**
@@ -51,11 +52,11 @@ Visit the live website: [https://sayandeep.github.io/hitcse-website](https://say
 ## 📁 Project Structure
 
 ```
-hitcse-website/
+HIT-CSE-AIML/
 ├── src/
 │   ├── components/
 │   │   ├── Navbar.tsx          # Navigation component
-│   │   ├── Hero.tsx            # Hero section
+│   │   ├── Hero.tsx            # Hero section with auto-sliding
 │   │   ├── About.tsx           # About Us section
 │   │   ├── Gallery.tsx         # Gallery section
 │   │   ├── HeadOfDepartment.tsx # HOD section
@@ -71,6 +72,7 @@ hitcse-website/
 ## 🎨 Available Scripts
 
 - `npm start` - Runs the app in development mode
+- `npm run dev` - Same as npm start
 - `npm run build` - Builds the app for production
 - `npm test` - Launches the test runner
 - `npm run deploy` - Deploys to GitHub Pages
@@ -98,18 +100,18 @@ The website is fully responsive and optimized for:
 
 ## 🎯 Key Sections
 
-1. **Navigation Bar** - Fixed navigation with mobile menu
-2. **Hero Section** - Code snippet and inspirational quote
-3. **About Us** - Department information and statistics
+1. **Navigation Bar** - Fixed navigation with logo and mobile menu
+2. **Hero Section** - Auto-sliding background images with code snippet
+3. **About Us** - AI & ML focused department information
 4. **Gallery** - Image showcase with hover effects
 5. **Head of Department** - Profile and welcome message
 6. **Footer** - Contact information and social links
 
 ## 📞 Contact
 
-- **Email**: csehithaldia@hithaldia.ac.in
-- **Address**: Department of Computer Science Engineering, Haldia Institute of Technology, Hatiberia, Haldia, Dist-Purba Medinipore, West Bengal, Pin-721657
+- **Email**: cseaimlhithaldia@hithaldia.ac.in
+- **Address**: Department of Computer Science & Engineering (AI & ML), Haldia Institute of Technology, Hatiberia, Haldia, Dist-Purba Medinipore, West Bengal, Pin-721657
 
 ---
 
-**Built with ❤️ for the Department of Computer Science & Engineering**
+**Built with ❤️ for the Department of Computer Science & Engineering (AI & ML)**
