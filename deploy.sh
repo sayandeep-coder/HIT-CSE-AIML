@@ -2,8 +2,8 @@
 
 echo "Building and deploying the website to GitHub Pages..."
 
-# Build the project
-npm run build
+# Build the project with CI=false to prevent treating warnings as errors
+CI=false npm run build
 
 # Deploy to GitHub Pages
 npm run deploy

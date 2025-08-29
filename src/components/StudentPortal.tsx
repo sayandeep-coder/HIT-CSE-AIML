@@ -69,7 +69,7 @@ const StudentPortal: React.FC = () => {
                 </div>
 
                 <div className="text-right">
-                  <a href="#" className="text-orange-500 hover:underline">Forgot Password?</a>
+                  <button type="button" className="text-orange-500 hover:underline">Forgot Password?</button>
                 </div>
 
                 <button 
