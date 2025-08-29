@@ -24,7 +24,7 @@ const Navbar: React.FC = () => {
                     e.currentTarget.style.display = 'none';
                   }}
                 />
-                <span className="text-lg font-semibold text-gray-800">Computer Science & Engineering(AI & ML)</span>
+                <span className="text-lg font-semibold text-gray-800">CSE(AI & ML)</span>
               </div>
             </div>
           </div>
