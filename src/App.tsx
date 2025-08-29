@@ -1,5 +1,5 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import EduTracking from './components/EduTracking';
@@ -12,8 +12,13 @@ import FacultyPortal from './components/FacultyPortal';
 import AdminPortal from './components/AdminPortal';
 
 function App() {
+  useEffect(() => {
+    console.log('App component mounted');
+    console.log('Current location:', window.location.href);
+  }, []);
+
   return (
-    <Router basename="/HIT-CSE-AIML">
+    <Router>
       <div className="App">
         <Routes>
           <Route path="/student-portal" element={<StudentPortal />} />
