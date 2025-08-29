@@ -13,7 +13,7 @@ import AdminPortal from './components/AdminPortal';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/HIT-CSE-AIML">
       <div className="App">
         <Routes>
           <Route path="/student-portal" element={<StudentPortal />} />
